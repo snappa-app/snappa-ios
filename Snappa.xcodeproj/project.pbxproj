@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF09B6C51BD7FC0E0016DF00 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF09B6C41BD7FC0E0016DF00 /* InfoView.m */; };
+		DF09B6C81BD8007B0016DF00 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DF09B6C71BD8007B0016DF00 /* UIImageEffects.m */; };
+		DF4E762C1B2E1E3400EDC1D0 /* SnappaEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4E762A1B2E1E3400EDC1D0 /* SnappaEvent.cpp */; };
+		DF4E762F1B2E1E9900EDC1D0 /* SnappaOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4E762D1B2E1E9900EDC1D0 /* SnappaOutput.cpp */; };
+		DF4E76321B2E1EA300EDC1D0 /* SnappaState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4E76301B2E1EA300EDC1D0 /* SnappaState.cpp */; };
+		DFA8C8B71B547D5D0040C31D /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8C8B61B547D5D0040C31D /* Util.m */; };
+		DFA8C8BD1B5480970040C31D /* SnappaUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA8C8BB1B5480970040C31D /* SnappaUtil.cpp */; };
+		DFAF5A8F1BD2CA3200413CF8 /* PlayerNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAF5A8E1BD2CA3200413CF8 /* PlayerNameView.m */; };
+		DFC761901B2CB03E004B91FB /* SnappaGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC7618E1B2CB03E004B91FB /* SnappaGame.cpp */; };
+		DFCA9F031B40933900AE520B /* DragChoiceView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFCA9F021B40933900AE520B /* DragChoiceView.mm */; };
+		DFCA9F051B4095BD00AE520B /* DragChoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCA9F041B4095BD00AE520B /* DragChoiceView.xib */; };
+		DFCA9F081B40976700AE520B /* DragChoiceViewChoice.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFCA9F071B40976700AE520B /* DragChoiceViewChoice.mm */; };
+		DFD24F451B3459540059057A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD24F441B3459540059057A /* MessageUI.framework */; };
+		DFFB1DE01B2C980F0059524D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB1DDF1B2C980F0059524D /* main.m */; };
+		DFFB1DE31B2C980F0059524D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFFB1DE21B2C980F0059524D /* AppDelegate.mm */; };
+		DFFB1DE61B2C980F0059524D /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFFB1DE51B2C980F0059524D /* GameViewController.mm */; };
+		DFFB1DE91B2C980F0059524D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB1DE71B2C980F0059524D /* Main.storyboard */; };
+		DFFB1DEB1B2C980F0059524D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFB1DEA1B2C980F0059524D /* Images.xcassets */; };
+		DFFB1DEE1B2C980F0059524D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFB1DEC1B2C980F0059524D /* LaunchScreen.xib */; };
+		DFFB1DFA1B2C98100059524D /* SnappaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB1DF91B2C98100059524D /* SnappaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFFB1DF41B2C98100059524D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFB1DD21B2C980F0059524D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFB1DD91B2C980F0059524D;
+			remoteInfo = Snappa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF09B6C31BD7FC0E0016DF00 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		DF09B6C41BD7FC0E0016DF00 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		DF09B6C61BD8007B0016DF00 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		DF09B6C71BD8007B0016DF00 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		DF4E762A1B2E1E3400EDC1D0 /* SnappaEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnappaEvent.cpp; path = snappa/SnappaEvent.cpp; sourceTree = "<group>"; };
+		DF4E762B1B2E1E3400EDC1D0 /* SnappaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaEvent.h; path = snappa/SnappaEvent.h; sourceTree = "<group>"; };
+		DF4E762D1B2E1E9900EDC1D0 /* SnappaOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnappaOutput.cpp; path = snappa/SnappaOutput.cpp; sourceTree = "<group>"; };
+		DF4E762E1B2E1E9900EDC1D0 /* SnappaOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaOutput.h; path = snappa/SnappaOutput.h; sourceTree = "<group>"; };
+		DF4E76301B2E1EA300EDC1D0 /* SnappaState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnappaState.cpp; path = snappa/SnappaState.cpp; sourceTree = "<group>"; };
+		DF4E76311B2E1EA300EDC1D0 /* SnappaState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaState.h; path = snappa/SnappaState.h; sourceTree = "<group>"; };
+		DF4E76371B2E1FB200EDC1D0 /* SnappaSM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaSM.h; path = snappa/SnappaSM.h; sourceTree = "<group>"; };
+		DFA8C8B51B547D5D0040C31D /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		DFA8C8B61B547D5D0040C31D /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		DFA8C8BB1B5480970040C31D /* SnappaUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnappaUtil.cpp; path = snappa/SnappaUtil.cpp; sourceTree = "<group>"; };
+		DFA8C8BC1B5480970040C31D /* SnappaUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaUtil.h; path = snappa/SnappaUtil.h; sourceTree = "<group>"; };
+		DFAF5A8D1BD2CA3200413CF8 /* PlayerNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNameView.h; sourceTree = "<group>"; };
+		DFAF5A8E1BD2CA3200413CF8 /* PlayerNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNameView.m; sourceTree = "<group>"; };
+		DFB06E6E1B4DFB03000B8E8E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = snappa/Constants.h; sourceTree = "<group>"; };
+		DFC7618E1B2CB03E004B91FB /* SnappaGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnappaGame.cpp; path = snappa/SnappaGame.cpp; sourceTree = "<group>"; };
+		DFC7618F1B2CB03E004B91FB /* SnappaGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnappaGame.h; path = snappa/SnappaGame.h; sourceTree = "<group>"; };
+		DFCA9F011B40933900AE520B /* DragChoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragChoiceView.h; sourceTree = "<group>"; };
+		DFCA9F021B40933900AE520B /* DragChoiceView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DragChoiceView.mm; sourceTree = "<group>"; };
+		DFCA9F041B4095BD00AE520B /* DragChoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DragChoiceView.xib; sourceTree = "<group>"; };
+		DFCA9F061B40976700AE520B /* DragChoiceViewChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragChoiceViewChoice.h; sourceTree = "<group>"; };
+		DFCA9F071B40976700AE520B /* DragChoiceViewChoice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DragChoiceViewChoice.mm; sourceTree = "<group>"; };
+		DFD24F441B3459540059057A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DFFB1DDA1B2C980F0059524D /* Snappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB1DDE1B2C980F0059524D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB1DDF1B2C980F0059524D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFB1DE11B2C980F0059524D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFB1DE21B2C980F0059524D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		DFFB1DE41B2C980F0059524D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DFFB1DE51B2C980F0059524D /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		DFFB1DE81B2C980F0059524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFFB1DEA1B2C980F0059524D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFFB1DED1B2C980F0059524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFFB1DF31B2C98100059524D /* SnappaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB1DF81B2C98100059524D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB1DF91B2C98100059524D /* SnappaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnappaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFB1DD71B2C980F0059524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD24F451B3459540059057A /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB1DF01B2C98100059524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4E76391B2E215C00EDC1D0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DF09B6C61BD8007B0016DF00 /* UIImageEffects.h */,
+				DF09B6C31BD7FC0E0016DF00 /* InfoView.h */,
+				DFAF5A8D1BD2CA3200413CF8 /* PlayerNameView.h */,
+				DFA8C8BC1B5480970040C31D /* SnappaUtil.h */,
+				DFA8C8B51B547D5D0040C31D /* Util.h */,
+				DFCA9F061B40976700AE520B /* DragChoiceViewChoice.h */,
+				DFCA9F011B40933900AE520B /* DragChoiceView.h */,
+				DFFB1DE11B2C980F0059524D /* AppDelegate.h */,
+				DFFB1DE41B2C980F0059524D /* GameViewController.h */,
+				DFC7618F1B2CB03E004B91FB /* SnappaGame.h */,
+				DF4E76371B2E1FB200EDC1D0 /* SnappaSM.h */,
+				DF4E762B1B2E1E3400EDC1D0 /* SnappaEvent.h */,
+				DF4E762E1B2E1E9900EDC1D0 /* SnappaOutput.h */,
+				DF4E76311B2E1EA300EDC1D0 /* SnappaState.h */,
+			);
+			name = Headers;
+			path = Snappa;
+			sourceTree = "<group>";
+		};
+		DF996DD91B518E1600F8C435 /* DragChoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA9F021B40933900AE520B /* DragChoiceView.mm */,
+				DFCA9F071B40976700AE520B /* DragChoiceViewChoice.mm */,
+				DFCA9F041B4095BD00AE520B /* DragChoiceView.xib */,
+			);
+			name = DragChoiceView;
+			sourceTree = "<group>";
+		};
+		DFC7618D1B2CAFA4004B91FB /* snappa */ = {
+			isa = PBXGroup;
+			children = (
+				DFC7618E1B2CB03E004B91FB /* SnappaGame.cpp */,
+				DF4E762A1B2E1E3400EDC1D0 /* SnappaEvent.cpp */,
+				DF4E762D1B2E1E9900EDC1D0 /* SnappaOutput.cpp */,
+				DF4E76301B2E1EA300EDC1D0 /* SnappaState.cpp */,
+				DFA8C8BB1B5480970040C31D /* SnappaUtil.cpp */,
+				DFB06E6E1B4DFB03000B8E8E /* Constants.h */,
+			);
+			name = snappa;
+			sourceTree = "<group>";
+		};
+		DFD24F461B34595C0059057A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD24F441B3459540059057A /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFFB1DD11B2C980F0059524D = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DDC1B2C980F0059524D /* Snappa */,
+				DF4E76391B2E215C00EDC1D0 /* Headers */,
+				DFD24F461B34595C0059057A /* Frameworks */,
+				DFFB1DF61B2C98100059524D /* SnappaTests */,
+				DFFB1DDB1B2C980F0059524D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFB1DDB1B2C980F0059524D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DDA1B2C980F0059524D /* Snappa.app */,
+				DFFB1DF31B2C98100059524D /* SnappaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFB1DDC1B2C980F0059524D /* Snappa */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DE21B2C980F0059524D /* AppDelegate.mm */,
+				DFA8C8B61B547D5D0040C31D /* Util.m */,
+				DFFB1DE51B2C980F0059524D /* GameViewController.mm */,
+				DFFB1DE71B2C980F0059524D /* Main.storyboard */,
+				DFAF5A8E1BD2CA3200413CF8 /* PlayerNameView.m */,
+				DF09B6C71BD8007B0016DF00 /* UIImageEffects.m */,
+				DF09B6C41BD7FC0E0016DF00 /* InfoView.m */,
+				DF996DD91B518E1600F8C435 /* DragChoiceView */,
+				DFC7618D1B2CAFA4004B91FB /* snappa */,
+				DFFB1DEC1B2C980F0059524D /* LaunchScreen.xib */,
+				DFFB1DEA1B2C980F0059524D /* Images.xcassets */,
+				DFFB1DDD1B2C980F0059524D /* Supporting Files */,
+			);
+			path = Snappa;
+			sourceTree = "<group>";
+		};
+		DFFB1DDD1B2C980F0059524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DDE1B2C980F0059524D /* Info.plist */,
+				DFFB1DDF1B2C980F0059524D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFB1DF61B2C98100059524D /* SnappaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DF91B2C98100059524D /* SnappaTests.m */,
+				DFFB1DF71B2C98100059524D /* Supporting Files */,
+			);
+			path = SnappaTests;
+			sourceTree = "<group>";
+		};
+		DFFB1DF71B2C98100059524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB1DF81B2C98100059524D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFB1DD91B2C980F0059524D /* Snappa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB1DFD1B2C98100059524D /* Build configuration list for PBXNativeTarget "Snappa" */;
+			buildPhases = (
+				DFFB1DD61B2C980F0059524D /* Sources */,
+				DFFB1DD71B2C980F0059524D /* Frameworks */,
+				DFFB1DD81B2C980F0059524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snappa;
+			productName = Snappa;
+			productReference = DFFB1DDA1B2C980F0059524D /* Snappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFFB1DF21B2C98100059524D /* SnappaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB1E001B2C98100059524D /* Build configuration list for PBXNativeTarget "SnappaTests" */;
+			buildPhases = (
+				DFFB1DEF1B2C98100059524D /* Sources */,
+				DFFB1DF01B2C98100059524D /* Frameworks */,
+				DFFB1DF11B2C98100059524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFB1DF51B2C98100059524D /* PBXTargetDependency */,
+			);
+			name = SnappaTests;
+			productName = SnappaTests;
+			productReference = DFFB1DF31B2C98100059524D /* SnappaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFB1DD21B2C980F0059524D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sam Edson";
+				TargetAttributes = {
+					DFFB1DD91B2C980F0059524D = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 72984XEPAA;
+					};
+					DFFB1DF21B2C98100059524D = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 72984XEPAA;
+						TestTargetID = DFFB1DD91B2C980F0059524D;
+					};
+				};
+			};
+			buildConfigurationList = DFFB1DD51B2C980F0059524D /* Build configuration list for PBXProject "Snappa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFB1DD11B2C980F0059524D;
+			productRefGroup = DFFB1DDB1B2C980F0059524D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFB1DD91B2C980F0059524D /* Snappa */,
+				DFFB1DF21B2C98100059524D /* SnappaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFB1DD81B2C980F0059524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB1DE91B2C980F0059524D /* Main.storyboard in Resources */,
+				DFFB1DEE1B2C980F0059524D /* LaunchScreen.xib in Resources */,
+				DFFB1DEB1B2C980F0059524D /* Images.xcassets in Resources */,
+				DFCA9F051B4095BD00AE520B /* DragChoiceView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB1DF11B2C98100059524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFB1DD61B2C980F0059524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF5A8F1BD2CA3200413CF8 /* PlayerNameView.m in Sources */,
+				DF4E762C1B2E1E3400EDC1D0 /* SnappaEvent.cpp in Sources */,
+				DFC761901B2CB03E004B91FB /* SnappaGame.cpp in Sources */,
+				DFCA9F081B40976700AE520B /* DragChoiceViewChoice.mm in Sources */,
+				DF09B6C51BD7FC0E0016DF00 /* InfoView.m in Sources */,
+				DF4E76321B2E1EA300EDC1D0 /* SnappaState.cpp in Sources */,
+				DFFB1DE61B2C980F0059524D /* GameViewController.mm in Sources */,
+				DFA8C8B71B547D5D0040C31D /* Util.m in Sources */,
+				DFFB1DE31B2C980F0059524D /* AppDelegate.mm in Sources */,
+				DF4E762F1B2E1E9900EDC1D0 /* SnappaOutput.cpp in Sources */,
+				DF09B6C81BD8007B0016DF00 /* UIImageEffects.m in Sources */,
+				DFFB1DE01B2C980F0059524D /* main.m in Sources */,
+				DFCA9F031B40933900AE520B /* DragChoiceView.mm in Sources */,
+				DFA8C8BD1B5480970040C31D /* SnappaUtil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB1DEF1B2C98100059524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB1DFA1B2C98100059524D /* SnappaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFB1DF51B2C98100059524D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFB1DD91B2C980F0059524D /* Snappa */;
+			targetProxy = DFFB1DF41B2C98100059524D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFFB1DE71B2C980F0059524D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB1DE81B2C980F0059524D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFB1DEC1B2C980F0059524D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB1DED1B2C980F0059524D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFB1DFB1B2C98100059524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFFB1DFC1B2C98100059524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFB1DFE1B2C98100059524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 72984XEPAA;
+				INFOPLIST_FILE = Snappa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brisdo.Snappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DFFB1DFF1B2C98100059524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 72984XEPAA;
+				INFOPLIST_FILE = Snappa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brisdo.Snappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DFFB1E011B2C98100059524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 72984XEPAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "palmtrees.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snappa.app/Snappa";
+			};
+			name = Debug;
+		};
+		DFFB1E021B2C98100059524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 72984XEPAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "palmtrees.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snappa.app/Snappa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFB1DD51B2C980F0059524D /* Build configuration list for PBXProject "Snappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB1DFB1B2C98100059524D /* Debug */,
+				DFFB1DFC1B2C98100059524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFB1DFD1B2C98100059524D /* Build configuration list for PBXNativeTarget "Snappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB1DFE1B2C98100059524D /* Debug */,
+				DFFB1DFF1B2C98100059524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFB1E001B2C98100059524D /* Build configuration list for PBXNativeTarget "SnappaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB1E011B2C98100059524D /* Debug */,
+				DFFB1E021B2C98100059524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFB1DD21B2C980F0059524D /* Project object */;
+}
